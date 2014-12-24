@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "blocked-chrome",
+  "description": "A chrome browser-extension that uses blocked.org.uk to see if the page you're on is blocked by content filters in the UK",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "button-1.png",
+    "default_popup": "popup.html"
+  }
+}
